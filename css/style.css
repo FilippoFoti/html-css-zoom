@@ -23,7 +23,7 @@ main {
     padding-right: 5px;
 }
 
-button {
+.header-button {
     height: 25px;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ button {
     cursor: pointer;
 }
 
-button span {
+.header-button span {
     padding-left: 5px;
 }
 
@@ -83,4 +83,61 @@ button span {
 footer {
     height: 70px;
     background-color: rgba(34,34,34,255);
+}
+
+.footer-list {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.footer-icon {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-icon li {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-icon p {
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.footer-icon span {
+    font-size: 0.7rem;
+}
+
+ .fa-share-from-square {
+    color: rgba(75,200,0,255);
+}
+
+.footer-button {
+    background-color: rgba(74,74,74,255);
+    height: 100%;
+    border-color: rgba(74,74,74,255);
+}
+
+.footer-button p {
+    padding: 15px;
+    color: #eb161d;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    cursor: pointer;
 }
